@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>bundleid</key>
+		<string>com.kaichu.paletter</string>
+		
+		<key>category</key>
+		<string>Tools</string>
+		
+		<key>connections</key>
+		<dict>
+		</dict>
+		<key>createdby</key>
+		<string></string>
+		<key>description</key>
+		<string></string>
+		<key>disabled</key>
+		<false/>
+		<key>name</key>
+		<string>Paletter</string>
+		<key>objects</key>
+		<array>
+		</array>
+		<key>readme</key>
+		<string/>
+		<key>uidata</key>
+		<dict>
+		</dict>
+		<key>userconfigurationconfig</key>
+		<array>
+		</array>
+		<key>version</key>
+		<string>0.1.0</string>
+		<key>webaddress</key>
+		<string>https://github.com/cage1016/alfred-paletter</string>
+	</dict>
+</plist>
