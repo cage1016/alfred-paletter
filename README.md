@@ -13,7 +13,7 @@ Extract color from an image
 
 ## Features
 
-- support image format: `jpg`, `png`, `gif`
+- support image format: `jpg`, `png`, `gif`, `bmp`, `webp` and `tiff`
 - Local file / base64 image data URI / `http` and `https` image source URL
 - copy color schema(s) to clipboard
 
@@ -33,6 +33,11 @@ Make sure to download the latest released directly from the releases page. [Down
 - [Baldomo/paletter: CLI app and library to extract a color palette from an image through clustering](https://github.com/Baldomo/paletter)
 
 ## Change Log
+
+### 0.2.0
+- add `bmp`, `webp` and `tiff` support
+- add dynamic color number setup by ` +number` ex: `paletter file-path +10`
+- revised items wording
 
 ### 0.1.0
 - Initial release

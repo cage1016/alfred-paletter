@@ -357,6 +357,11 @@ Extract color from an image
 
 ## Change Log
 
+### 0.2.0
+- add `bmp`, `webp` and `tiff` support
+- add dynamic color number setup by ` +number` ex: `paletter file-path +10`
+- revised items wording
+
 ### 0.1.0
 - Initial release
 
@@ -478,7 +483,7 @@ https://github.com/cage1016/alfred-paletter</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>0.1.0</string>
+	<string>0.2.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/cage1016/alfred-paletter</string>
 </dict>
