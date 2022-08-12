@@ -17,8 +17,9 @@ const (
 )
 
 var (
-	ReUrl = regexp.MustCompile(`(?m)^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$`)
-	ReB64 = regexp.MustCompile(`(data:image\/[^;]+;base64,.*?)`)
+	ReUrl           = regexp.MustCompile(`(?m)^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$`)
+	ReB64           = regexp.MustCompile(`(data:image\/[^;]+;base64,.*?)`)
+	ReNumberOfColor = regexp.MustCompile(`(?m)( \+\d?)`)
 )
 
 type HexColor struct {

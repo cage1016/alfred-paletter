@@ -6,9 +6,12 @@ package cmd
 
 import (
 	"fmt"
+	"strconv"
+	"strings"
 
 	"github.com/Baldomo/paletter"
 	aw "github.com/deanishe/awgo"
+	"github.com/muesli/clusters"
 	"github.com/spf13/cobra"
 
 	"github.com/cage1016/alfred-paletter/alfred"
@@ -24,7 +27,14 @@ var paletterCmd = &cobra.Command{
 	Use:   "paletter",
 	Short: "Extract color from an image",
 	Run: func(cmd *cobra.Command, args []string) {
-		q := args[0]
+		q, r := args[0], ""
+		match := lib.ReNumberOfColor.FindStringSubmatch(q)
+		if len(match) > 0 {
+			index := lib.ReNumberOfColor.FindAllStringSubmatchIndex(q, -1)[0][0]
+			q, r = strings.TrimSpace(q[:index]), q[index+1:]
+		} else {
+			q = strings.TrimSpace(q)
+		}
 
 		var path string
 		var err error
@@ -49,10 +59,21 @@ var paletterCmd = &cobra.Command{
 		// local file
 		img, err := paletter.OpenImage(q)
 		if err != nil {
-			wf.NewItem(fmt.Sprintf("%s", err.Error())).Subtitle("Support png, jpeg, gif, webp, bmp, tiff. Try a different query?").Icon(GaryIcon)
+			wf.NewItem(err.Error()).Subtitle("Support png, jpeg, gif, webp, bmp, tiff. Try a different query?").Icon(GaryIcon)
 		} else {
+			var cs clusters.Clusters
 			obs := paletter.ImageToObservation(img)
-			cs, _ := paletter.CalculatePalette(obs, alfred.GetNumberOfColor(wf))
+			if len(r) > 1 {
+				nc, err := strconv.Atoi(r)
+				if err != nil {
+					wf.NewItem(err.Error()).Subtitle("Support png, jpeg, gif, webp, bmp, tiff. Try a different query?").Icon(GaryIcon)
+					wf.SendFeedback()
+					return
+				}
+				cs, _ = paletter.CalculatePalette(obs, nc)
+			} else {
+				cs, _ = paletter.CalculatePalette(obs, alfred.GetNumberOfColor(wf))
+			}
 			colors := paletter.ColorsFromClusters(cs)
 
 			uniColors := lib.Unique(colors)
