@@ -94,3 +94,4 @@ Temporary Items
 *.alfredwork
 testenv
 .workflow/exe
+.workflow/prefs.plist
