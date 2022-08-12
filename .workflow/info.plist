@@ -8,11 +8,63 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
+		<key>16DCA28F-9A99-491E-9BB0-57DBF70F4797</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7BDF05E1-0A5F-456C-8A34-6BE6BB0EE124</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>4BD1B1BB-8DBD-4284-BEF0-320867C09B1D</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>8BDB2B19-2885-4E2C-861E-0C099CC9D88E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4C2A7462-8A13-4B86-A304-0F107BCDA619</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
 				<string>7437661B-BC74-4A03-B545-2CCF454C28E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5C9779DF-E272-4419-8224-E69B738191BC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0F6A79AD-6307-4E20-A083-47FA8BA1A39C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6A09E38C-AB06-4C7C-B8F2-BBF125383602</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0F6A79AD-6307-4E20-A083-47FA8BA1A39C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -34,11 +86,73 @@
 				<false/>
 			</dict>
 		</array>
+		<key>7BDF05E1-0A5F-456C-8A34-6BE6BB0EE124</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5C9779DF-E272-4419-8224-E69B738191BC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7437661B-BC74-4A03-B545-2CCF454C28E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>CD7346D4-0DBB-4FFD-B29C-BE7A28648906</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7437661B-BC74-4A03-B545-2CCF454C28E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>5DF353DA-47CB-4068-9711-20F8DE699C61</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8BDB2B19-2885-4E2C-861E-0C099CC9D88E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5C9779DF-E272-4419-8224-E69B738191BC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7437661B-BC74-4A03-B545-2CCF454C28E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>BB9366E2-B897-42D3-B4D8-88B441E40B97</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>906B8302-0F8A-48AC-BC99-E75F0E6235E1</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0F6A79AD-6307-4E20-A083-47FA8BA1A39C</string>
+				<string>6A09E38C-AB06-4C7C-B8F2-BBF125383602</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -63,7 +177,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>0F6A79AD-6307-4E20-A083-47FA8BA1A39C</string>
+				<string>6A09E38C-AB06-4C7C-B8F2-BBF125383602</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -94,6 +208,19 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>52A58F86-699F-4882-9175-C246575BAEE9</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C975511B-BC32-4F94-BFFA-C3BCDA3A2886</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7437661B-BC74-4A03-B545-2CCF454C28E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -131,6 +258,73 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>acceptsfiles</key>
+				<false/>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>acceptstext</key>
+				<true/>
+				<key>acceptsurls</key>
+				<true/>
+				<key>name</key>
+				<string>Open With Paletter</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.universalaction</string>
+			<key>uid</key>
+			<string>16DCA28F-9A99-491E-9BB0-57DBF70F4797</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png|tiff|bmp|webp)</string>
+						<key>outputlabel</key>
+						<string>URL</string>
+						<key>uid</key>
+						<string>CD7346D4-0DBB-4FFD-B29C-BE7A28648906</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^(data:)(image\/([png|gif|tiff|bmp|jpeg|webp]*))(;charset=[\w-]+|;base64){0,1},(.*)</string>
+						<key>outputlabel</key>
+						<string>Data URI</string>
+						<key>uid</key>
+						<string>5DF353DA-47CB-4068-9711-20F8DE699C61</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>7BDF05E1-0A5F-456C-8A34-6BE6BB0EE124</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -138,7 +332,7 @@
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>{query} copied</string>
+				<string>{var:msg}</string>
 				<key>title</key>
 				<string>Paletter</string>
 			</dict>
@@ -146,6 +340,26 @@
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>0F6A79AD-6307-4E20-A083-47FA8BA1A39C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>msg</key>
+					<string>Query invald. Try a different query?</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>5C9779DF-E272-4419-8224-E69B738191BC</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -164,8 +378,6 @@
 				<integer>0</integer>
 				<key>escaping</key>
 				<integer>102</integer>
-				<key>keyword</key>
-				<string>paletter</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -232,6 +444,26 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>msg</key>
+					<string>{query} Copied</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>6A09E38C-AB06-4C7C-B8F2-BBF125383602</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -292,6 +524,38 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^.*\.(jpgpng|jpeg|gif|webp|bmp|tiff)$</string>
+						<key>outputlabel</key>
+						<string>Valid</string>
+						<key>uid</key>
+						<string>BB9366E2-B897-42D3-B4D8-88B441E40B97</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>8BDB2B19-2885-4E2C-861E-0C099CC9D88E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -321,6 +585,30 @@ echo $@</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>acceptsmulti</key>
+				<integer>1</integer>
+				<key>filetypes</key>
+				<array>
+					<string>com.compuserve.gif</string>
+					<string>com.microsoft.bmp</string>
+					<string>org.webmproject.webp</string>
+					<string>public.jpeg</string>
+					<string>public.png</string>
+					<string>public.tiff</string>
+				</array>
+				<key>name</key>
+				<string>Open with Paletter</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>4C2A7462-8A13-4B86-A304-0F107BCDA619</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>searcher</key>
@@ -333,6 +621,91 @@ echo $@</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>paletterf</string>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Find file and open in Paletter</string>
+				<key>title</key>
+				<string>Find and open with Paletter</string>
+				<key>types</key>
+				<array>
+					<string>com.compuserve.gif</string>
+					<string>com.microsoft.bmp</string>
+					<string>org.webmproject.webp</string>
+					<string>public.jpeg</string>
+					<string>public.png</string>
+					<string>public.tiff</string>
+				</array>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>C975511B-BC32-4F94-BFFA-C3BCDA3A2886</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string># alfred-devtoys
@@ -343,7 +716,7 @@ Extract color from an image
 
 ## Features
 
-- support image format: `jpg`, `png`, `gif`
+- support image format: `jpg`, `png`, `gif`, `bmp`, `webp` and `tiff`
 - Local file / base64 image data URI / `http` and `https` image source URL
 - copy color schema(s) to clipboard
 
@@ -355,7 +728,18 @@ Extract color from an image
 - Enable Color Hex starting with #
 - Enable copying each color hex as a clipboard history
 
+## Usage
+
+![](./usage.jpg)
+
+- File Filter / File Action 
+- Hokey
+- Universal Action with Base64 Image Data URI and image URL
+
 ## Change Log
+
+### 0.2.1
+- revised README and new demo.gif for better user experience
 
 ### 0.2.0
 - add `bmp`, `webp` and `tiff` support
@@ -371,53 +755,104 @@ https://github.com/cage1016/alfred-paletter</string>
 		<key>0F6A79AD-6307-4E20-A083-47FA8BA1A39C</key>
 		<dict>
 			<key>xpos</key>
-			<real>945</real>
+			<real>1160</real>
 			<key>ypos</key>
-			<real>250</real>
+			<real>200</real>
+		</dict>
+		<key>16DCA28F-9A99-491E-9BB0-57DBF70F4797</key>
+		<dict>
+			<key>xpos</key>
+			<real>105</real>
+			<key>ypos</key>
+			<real>170</real>
 		</dict>
 		<key>4BD1B1BB-8DBD-4284-BEF0-320867C09B1D</key>
 		<dict>
 			<key>xpos</key>
-			<real>95</real>
+			<real>105</real>
 			<key>ypos</key>
-			<real>280</real>
+			<real>310</real>
+		</dict>
+		<key>4C2A7462-8A13-4B86-A304-0F107BCDA619</key>
+		<dict>
+			<key>xpos</key>
+			<real>105</real>
+			<key>ypos</key>
+			<real>450</real>
+		</dict>
+		<key>5C9779DF-E272-4419-8224-E69B738191BC</key>
+		<dict>
+			<key>xpos</key>
+			<real>495</real>
+			<key>ypos</key>
+			<real>230</real>
+		</dict>
+		<key>6A09E38C-AB06-4C7C-B8F2-BBF125383602</key>
+		<dict>
+			<key>xpos</key>
+			<real>1040</real>
+			<key>ypos</key>
+			<real>310</real>
 		</dict>
 		<key>7437661B-BC74-4A03-B545-2CCF454C28E9</key>
 		<dict>
 			<key>xpos</key>
-			<real>280</real>
+			<real>455</real>
 			<key>ypos</key>
-			<real>280</real>
+			<real>310</real>
+		</dict>
+		<key>7BDF05E1-0A5F-456C-8A34-6BE6BB0EE124</key>
+		<dict>
+			<key>note</key>
+			<string>Support http(s) image URL and Base64 Data URI</string>
+			<key>xpos</key>
+			<real>297</real>
+			<key>ypos</key>
+			<real>175</real>
+		</dict>
+		<key>8BDB2B19-2885-4E2C-861E-0C099CC9D88E</key>
+		<dict>
+			<key>xpos</key>
+			<real>305</real>
+			<key>ypos</key>
+			<real>330</real>
 		</dict>
 		<key>906B8302-0F8A-48AC-BC99-E75F0E6235E1</key>
 		<dict>
 			<key>note</key>
 			<string>copy each color hex as one clipboard history</string>
 			<key>xpos</key>
-			<real>700</real>
+			<real>845</real>
 			<key>ypos</key>
-			<real>340</real>
+			<real>360</real>
 		</dict>
 		<key>A6CD7524-672F-40B7-8CBE-90F58CD7F67F</key>
 		<dict>
 			<key>xpos</key>
-			<real>700</real>
+			<real>845</real>
 			<key>ypos</key>
-			<real>530</real>
+			<real>540</real>
 		</dict>
 		<key>BDE21F8E-FEBE-4D2A-97FF-40C012E5243C</key>
 		<dict>
 			<key>xpos</key>
-			<real>700</real>
+			<real>1160</real>
 			<key>ypos</key>
-			<real>135</real>
+			<real>45</real>
 		</dict>
 		<key>C3A81E39-FDCB-4C24-BF11-D6D0CBA24FB0</key>
 		<dict>
 			<key>xpos</key>
-			<real>485</real>
+			<real>640</real>
 			<key>ypos</key>
-			<real>285</real>
+			<real>315</real>
+		</dict>
+		<key>C975511B-BC32-4F94-BFFA-C3BCDA3A2886</key>
+		<dict>
+			<key>xpos</key>
+			<real>105</real>
+			<key>ypos</key>
+			<real>590</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -483,7 +918,7 @@ https://github.com/cage1016/alfred-paletter</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>0.2.0</string>
+	<string>0.2.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/cage1016/alfred-paletter</string>
 </dict>
