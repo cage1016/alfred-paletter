@@ -8,11 +8,70 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
+		<key>0A54CF84-5498-437A-8265-AF4509CA3388</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4BA164B2-D5C9-4FBB-887B-A88D092373E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>16DCA28F-9A99-491E-9BB0-57DBF70F4797</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>7BDF05E1-0A5F-456C-8A34-6BE6BB0EE124</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>25300FE8-5B1F-4A6C-9340-AF0B85B840E9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>498E9573-83D4-4B21-B9DE-6BE8ADE5BDBC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>EB0E8A85-85CA-4F64-8041-4C6929320C6D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>39663EF2-3431-451A-AC12-D3BE7A1C5A75</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EB0E8A85-85CA-4F64-8041-4C6929320C6D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CC7D7F17-7A96-4D5C-B2B7-E7E8603F0160</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -60,6 +119,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>61ED8874-5B20-4E6D-ABF7-5C00384F2093</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4BA164B2-D5C9-4FBB-887B-A88D092373E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>6A09E38C-AB06-4C7C-B8F2-BBF125383602</key>
 		<array>
 			<dict>
@@ -78,6 +150,16 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>C3A81E39-FDCB-4C24-BF11-D6D0CBA24FB0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F4A7FBD1-CD4F-441C-87D7-9B66F3B693BF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -165,7 +247,60 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>25300FE8-5B1F-4A6C-9340-AF0B85B840E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C1FBD88C-51C8-4ABF-8D7E-3D8FC9DB8DEF</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>39663EF2-3431-451A-AC12-D3BE7A1C5A75</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>D2555A1D-5294-4F54-85AD-47C99B6B78EB</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C975511B-BC32-4F94-BFFA-C3BCDA3A2886</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7437661B-BC74-4A03-B545-2CCF454C28E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E3D85CD8-BE68-486A-8412-F7357A47D0D1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
 				<string>BDE21F8E-FEBE-4D2A-97FF-40C012E5243C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EB0E8A85-85CA-4F64-8041-4C6929320C6D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E3D85CD8-BE68-486A-8412-F7357A47D0D1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -195,13 +330,13 @@
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>sourceoutputuid</key>
-				<string>D2555A1D-5294-4F54-85AD-47C99B6B78EB</string>
+				<string>4F5CDDA0-7FFC-4B0B-8322-3B41E18CF792</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>A6CD7524-672F-40B7-8CBE-90F58CD7F67F</string>
+				<string>0A54CF84-5498-437A-8265-AF4509CA3388</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -211,16 +346,15 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-		</array>
-		<key>C975511B-BC32-4F94-BFFA-C3BCDA3A2886</key>
-		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>7437661B-BC74-4A03-B545-2CCF454C28E9</string>
+				<string>61ED8874-5B20-4E6D-ABF7-5C00384F2093</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C3945ADC-8538-45EC-B8BF-5C9458C58EFA</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -256,6 +390,14 @@
 			<integer>3</integer>
 		</dict>
 		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>E3D85CD8-BE68-486A-8412-F7357A47D0D1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
 			<key>config</key>
 			<dict>
 				<key>acceptsfiles</key>
@@ -289,7 +431,7 @@
 						<key>matchmode</key>
 						<integer>4</integer>
 						<key>matchstring</key>
-						<string>(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png|tiff|bmp|webp)</string>
+						<string>^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?(?:jpg|jpeg|gif|png|tiff|tif|bmp|webp)$</string>
 						<key>outputlabel</key>
 						<string>URL</string>
 						<key>uid</key>
@@ -366,22 +508,72 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
+				<key>alfredfiltersresults</key>
 				<false/>
-				<key>variables</key>
-				<dict>
-					<key>msg</key>
-					<string>{query} Copied</string>
-				</dict>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./exe copy "$1" </string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Paletter Copy</string>
+				<key>title</key>
+				<string>Paletter Copy</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>6A09E38C-AB06-4C7C-B8F2-BBF125383602</string>
+			<string>25300FE8-5B1F-4A6C-9340-AF0B85B840E9</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./exe clearPng cmd-copy</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>498E9573-83D4-4B21-B9DE-6BE8ADE5BDBC</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -464,60 +656,20 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:action}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>copy</string>
-						<key>outputlabel</key>
-						<string>copy</string>
-						<key>uid</key>
-						<string>C1FBD88C-51C8-4ABF-8D7E-3D8FC9DB8DEF</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:action}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>copy_all_separate</string>
-						<key>outputlabel</key>
-						<string>copy separate</string>
-						<key>uid</key>
-						<string>D2555A1D-5294-4F54-85AD-47C99B6B78EB</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:action}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>search</string>
-						<key>outputlabel</key>
-						<string>search</string>
-						<key>uid</key>
-						<string>52A58F86-699F-4882-9175-C246575BAEE9</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>else</string>
-				<key>hideelse</key>
-				<true/>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>msg</key>
+					<string>{query} Copied</string>
+				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>C3A81E39-FDCB-4C24-BF11-D6D0CBA24FB0</string>
+			<string>6A09E38C-AB06-4C7C-B8F2-BBF125383602</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -556,31 +708,71 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>for var in "$@"
-do
-    echo "$var" | pbcopy
-	sleep 0.13
-done
-
-echo $@</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>copy_palette</string>
+						<key>outputlabel</key>
+						<string>copy_palette</string>
+						<key>uid</key>
+						<string>C1FBD88C-51C8-4ABF-8D7E-3D8FC9DB8DEF</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>export</string>
+						<key>outputlabel</key>
+						<string>export</string>
+						<key>uid</key>
+						<string>D2555A1D-5294-4F54-85AD-47C99B6B78EB</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>906B8302-0F8A-48AC-BC99-E75F0E6235E1</string>
+			<string>C3A81E39-FDCB-4C24-BF11-D6D0CBA24FB0</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>path</key>
+				<string></string>
+				<key>sortBy</key>
+				<integer>0</integer>
+				<key>sortDirection</key>
+				<integer>0</integer>
+				<key>sortFoldersAtTop</key>
+				<false/>
+				<key>sortOverride</key>
+				<false/>
+				<key>stackBrowserView</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.browseinalfred</string>
+			<key>uid</key>
+			<string>4BA164B2-D5C9-4FBB-887B-A88D092373E9</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -609,17 +801,152 @@ echo $@</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>searcher</key>
-				<integer>1635215215</integer>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>copy</string>
+						<key>outputlabel</key>
+						<string>copy</string>
+						<key>uid</key>
+						<string>C1FBD88C-51C8-4ABF-8D7E-3D8FC9DB8DEF</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>copy_all_separate</string>
+						<key>outputlabel</key>
+						<string>copy_all_separate</string>
+						<key>uid</key>
+						<string>4F5CDDA0-7FFC-4B0B-8322-3B41E18CF792</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>svc</string>
+						<key>outputlabel</key>
+						<string>svc</string>
+						<key>uid</key>
+						<string>52A58F86-699F-4882-9175-C246575BAEE9</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>image</string>
+						<key>outputlabel</key>
+						<string>image</string>
+						<key>uid</key>
+						<string>C3945ADC-8538-45EC-B8BF-5C9458C58EFA</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.systemwebsearch</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>A6CD7524-672F-40B7-8CBE-90F58CD7F67F</string>
+			<string>EB0E8A85-85CA-4F64-8041-4C6929320C6D</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./exe export "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Paletter Export</string>
+				<key>title</key>
+				<string>Paletter Export</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>39663EF2-3431-451A-AC12-D3BE7A1C5A75</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>for var in "$@"
+do
+    echo "$var" | pbcopy
+	sleep 0.13
+done
+
+echo $@</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>906B8302-0F8A-48AC-BC99-E75F0E6235E1</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -706,6 +1033,98 @@ echo $@</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./exe generator "$1" -t svg</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0A54CF84-5498-437A-8265-AF4509CA3388</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./exe clearPng cmd-paletter</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>F4A7FBD1-CD4F-441C-87D7-9B66F3B693BF</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./exe clearPng cmd-export</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CC7D7F17-7A96-4D5C-B2B7-E7E8603F0160</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./exe generator "$1" -t image</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>61ED8874-5B20-4E6D-ABF7-5C00384F2093</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string># alfred-devtoys
@@ -752,107 +1171,180 @@ Extract color from an image
 https://github.com/cage1016/alfred-paletter</string>
 	<key>uidata</key>
 	<dict>
+		<key>0A54CF84-5498-437A-8265-AF4509CA3388</key>
+		<dict>
+			<key>note</key>
+			<string>generate svg</string>
+			<key>xpos</key>
+			<real>1195</real>
+			<key>ypos</key>
+			<real>755</real>
+		</dict>
 		<key>0F6A79AD-6307-4E20-A083-47FA8BA1A39C</key>
 		<dict>
 			<key>xpos</key>
-			<real>1160</real>
+			<real>1515</real>
 			<key>ypos</key>
-			<real>200</real>
+			<real>240</real>
 		</dict>
 		<key>16DCA28F-9A99-491E-9BB0-57DBF70F4797</key>
 		<dict>
 			<key>xpos</key>
-			<real>105</real>
+			<real>100</real>
 			<key>ypos</key>
-			<real>170</real>
+			<real>210</real>
+		</dict>
+		<key>25300FE8-5B1F-4A6C-9340-AF0B85B840E9</key>
+		<dict>
+			<key>xpos</key>
+			<real>770</real>
+			<key>ypos</key>
+			<real>335</real>
+		</dict>
+		<key>39663EF2-3431-451A-AC12-D3BE7A1C5A75</key>
+		<dict>
+			<key>xpos</key>
+			<real>770</real>
+			<key>ypos</key>
+			<real>585</real>
+		</dict>
+		<key>498E9573-83D4-4B21-B9DE-6BE8ADE5BDBC</key>
+		<dict>
+			<key>note</key>
+			<string>remove cmd-copy png files</string>
+			<key>xpos</key>
+			<real>965</real>
+			<key>ypos</key>
+			<real>335</real>
+		</dict>
+		<key>4BA164B2-D5C9-4FBB-887B-A88D092373E9</key>
+		<dict>
+			<key>xpos</key>
+			<real>1515</real>
+			<key>ypos</key>
+			<real>415</real>
 		</dict>
 		<key>4BD1B1BB-8DBD-4284-BEF0-320867C09B1D</key>
 		<dict>
 			<key>xpos</key>
-			<real>105</real>
+			<real>100</real>
 			<key>ypos</key>
-			<real>310</real>
+			<real>350</real>
 		</dict>
 		<key>4C2A7462-8A13-4B86-A304-0F107BCDA619</key>
 		<dict>
 			<key>xpos</key>
-			<real>105</real>
+			<real>100</real>
 			<key>ypos</key>
-			<real>450</real>
+			<real>490</real>
 		</dict>
 		<key>5C9779DF-E272-4419-8224-E69B738191BC</key>
 		<dict>
 			<key>xpos</key>
-			<real>495</real>
+			<real>490</real>
 			<key>ypos</key>
-			<real>230</real>
+			<real>270</real>
+		</dict>
+		<key>61ED8874-5B20-4E6D-ABF7-5C00384F2093</key>
+		<dict>
+			<key>note</key>
+			<string>generate image</string>
+			<key>xpos</key>
+			<real>1195</real>
+			<key>ypos</key>
+			<real>915</real>
 		</dict>
 		<key>6A09E38C-AB06-4C7C-B8F2-BBF125383602</key>
 		<dict>
 			<key>xpos</key>
-			<real>1040</real>
+			<real>1390</real>
 			<key>ypos</key>
-			<real>310</real>
+			<real>355</real>
 		</dict>
 		<key>7437661B-BC74-4A03-B545-2CCF454C28E9</key>
 		<dict>
 			<key>xpos</key>
-			<real>455</real>
+			<real>450</real>
 			<key>ypos</key>
-			<real>310</real>
+			<real>350</real>
 		</dict>
 		<key>7BDF05E1-0A5F-456C-8A34-6BE6BB0EE124</key>
 		<dict>
 			<key>note</key>
 			<string>Support http(s) image URL and Base64 Data URI</string>
 			<key>xpos</key>
-			<real>297</real>
+			<real>292</real>
 			<key>ypos</key>
-			<real>175</real>
+			<real>215</real>
 		</dict>
 		<key>8BDB2B19-2885-4E2C-861E-0C099CC9D88E</key>
 		<dict>
 			<key>xpos</key>
-			<real>305</real>
+			<real>300</real>
 			<key>ypos</key>
-			<real>330</real>
+			<real>370</real>
 		</dict>
 		<key>906B8302-0F8A-48AC-BC99-E75F0E6235E1</key>
 		<dict>
 			<key>note</key>
 			<string>copy each color hex as one clipboard history</string>
 			<key>xpos</key>
-			<real>845</real>
+			<real>1195</real>
 			<key>ypos</key>
-			<real>360</real>
-		</dict>
-		<key>A6CD7524-672F-40B7-8CBE-90F58CD7F67F</key>
-		<dict>
-			<key>xpos</key>
-			<real>845</real>
-			<key>ypos</key>
-			<real>540</real>
+			<real>585</real>
 		</dict>
 		<key>BDE21F8E-FEBE-4D2A-97FF-40C012E5243C</key>
 		<dict>
 			<key>xpos</key>
-			<real>1160</real>
+			<real>1515</real>
 			<key>ypos</key>
-			<real>45</real>
+			<real>65</real>
 		</dict>
 		<key>C3A81E39-FDCB-4C24-BF11-D6D0CBA24FB0</key>
 		<dict>
 			<key>xpos</key>
-			<real>640</real>
+			<real>630</real>
 			<key>ypos</key>
-			<real>315</real>
+			<real>370</real>
 		</dict>
 		<key>C975511B-BC32-4F94-BFFA-C3BCDA3A2886</key>
 		<dict>
 			<key>xpos</key>
-			<real>105</real>
+			<real>100</real>
 			<key>ypos</key>
-			<real>590</real>
+			<real>630</real>
+		</dict>
+		<key>CC7D7F17-7A96-4D5C-B2B7-E7E8603F0160</key>
+		<dict>
+			<key>note</key>
+			<string>remove cmd-export png files</string>
+			<key>xpos</key>
+			<real>975</real>
+			<key>ypos</key>
+			<real>755</real>
+		</dict>
+		<key>E3D85CD8-BE68-486A-8412-F7357A47D0D1</key>
+		<dict>
+			<key>xpos</key>
+			<real>1385</real>
+			<key>ypos</key>
+			<real>185</real>
+		</dict>
+		<key>EB0E8A85-85CA-4F64-8041-4C6929320C6D</key>
+		<dict>
+			<key>xpos</key>
+			<real>975</real>
+			<key>ypos</key>
+			<real>575</real>
+		</dict>
+		<key>F4A7FBD1-CD4F-441C-87D7-9B66F3B693BF</key>
+		<dict>
+			<key>note</key>
+			<string>remove cmd-paletter png files</string>
+			<key>xpos</key>
+			<real>770</real>
+			<key>ypos</key>
+			<real>755</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -877,44 +1369,6 @@ https://github.com/cage1016/alfred-paletter</string>
 			<string>textfield</string>
 			<key>variable</key>
 			<string>number_of_color</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<true/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
-				<string>starting with #</string>
-			</dict>
-			<key>description</key>
-			<string></string>
-			<key>label</key>
-			<string>Colors Hex</string>
-			<key>type</key>
-			<string>checkbox</string>
-			<key>variable</key>
-			<string>colors_hex_with_hash</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<true/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
-				<string>copying each color Hex as a clipboard history</string>
-			</dict>
-			<key>description</key>
-			<string></string>
-			<key>label</key>
-			<string>Clipboard</string>
-			<key>type</key>
-			<string>checkbox</string>
-			<key>variable</key>
-			<string>copy_all_separate</string>
 		</dict>
 	</array>
 	<key>version</key>

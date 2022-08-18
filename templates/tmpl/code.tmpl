@@ -1,0 +1,20 @@
+/* CSV */
+{{range $i,$v := .}}{{removeHash $v.Hex}}{{if not (last $i $)}}, {{end}}{{end}}
+
+/* With # */
+{{range $i,$v := .}}{{$v.Hex}}{{if not (last $i $)}}, {{end}}{{end}}
+
+/* Array */
+[{{range $i,$v := .}}"{{$v.Hex}}"{{if not (last $i $)}}, {{end}}{{end}}]
+
+/* Object */
+{{`{`}}{{range $i,$v := .}}"{{$v.Name}}":"{{$v.Hex}}"{{if not (last $i $)}}, {{end}}{{end}}{{`}`}}
+
+/* Extended Array */
+{{`[`}}{{range $i,$v := .}}{{template "extendedArrayItem" $v}}{{end}}{{`]`}}
+
+/* XML */
+<palette>
+{{range $i,$v := .}}{{if ne $i 0}}
+{{else}}{{end}}{{template "colorItem" $v}}{{end}}
+</palette>

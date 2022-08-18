@@ -11,6 +11,7 @@ import (
 
 	"github.com/Baldomo/paletter"
 	aw "github.com/deanishe/awgo"
+	"github.com/google/uuid"
 	"github.com/muesli/clusters"
 	"github.com/spf13/cobra"
 
@@ -27,6 +28,8 @@ var paletterCmd = &cobra.Command{
 	Use:   "paletter",
 	Short: "Extract color from an image",
 	Run: func(cmd *cobra.Command, args []string) {
+		CheckForUpdate()
+
 		q, r := args[0], ""
 		match := lib.ReNumberOfColor.FindStringSubmatch(q)
 		if len(match) > 0 {
@@ -79,33 +82,31 @@ var paletterCmd = &cobra.Command{
 			uniColors := lib.Unique(colors)
 			for i, c := range uniColors {
 				wf.Add(1)
-				path = fmt.Sprintf("%s/%d.png", wf.DataDir(), i)
+				path = fmt.Sprintf("%s/cmd-paletter/%v.png", wf.DataDir(), uuid.New().String())
 				go lib.GenPng(wf, path, c.Color)
 
 				ni := wf.NewItem(c.Hex).
-					Subtitle(fmt.Sprintf("^ ⌥, ↩ Copy %s", c.Hex)).
+					Subtitle("^ ⌥, ↩ Export Palette").
+					Arg(uniColors.HexsString()).
+					Valid(true).
+					UID(strconv.Itoa(i)).
+					Quicklook(q).
+					Copytext(c.Hex).
+					Largetype(c.Hex).
+					Icon(&aw.Icon{Value: path}).
+					Var("action", "export")
+
+				ni.Opt().
+					Subtitle("↩ Copy single Palette").
 					Valid(true).
 					Arg(c.Hex).
-					Icon(&aw.Icon{Value: path}).
-					Var("action", "copy").
-					Quicklook(q)
-
-				if alfred.GetCopyAllSeparate(wf) {
-					ni.Opt().
-						Subtitle(fmt.Sprintf("↩ Copy %s separate", uniColors.HexsString())).
-						Arg(uniColors.Hexs()...).
-						Var("action", "copy_all_separate")
-				} else {
-					ni.Opt().
-						Subtitle(fmt.Sprintf("Copy %s", uniColors.HexsString())).
-						Arg(uniColors.HexsString()).
-						Var("action", "copy")
-				}
+					Var("action", "copy_palette")
 
 				ni.Ctrl().
-					Subtitle(fmt.Sprintf("↩ Search Google for '%s'", c.Hex)).
-					Arg(c.Hex).
-					Var("action", "search")
+					Subtitle("↩ Copy multiple Palette").
+					Valid(true).
+					Arg(uniColors.HexsString()).
+					Var("action", "copy_palette")
 			}
 
 			if len(uniColors) == 0 {

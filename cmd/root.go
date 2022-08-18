@@ -5,6 +5,8 @@ Copyright © 2022 KAI CHU CHUNG <cage.chung@gmail.com> (https://kaichu.io)
 package cmd
 
 import (
+	"errors"
+	"fmt"
 	"log"
 	"os"
 	"os/exec"
@@ -63,5 +65,14 @@ func Execute() {
 
 func init() {
 	wf = aw.New(update.GitHub(repo), aw.HelpURL(repo+"/issues"))
+	if _, err := os.Stat(fmt.Sprintf("%s/cmd-paletter", wf.DataDir())); errors.Is(err, os.ErrNotExist) {
+		os.Mkdir(fmt.Sprintf("%s/cmd-paletter", wf.DataDir()), 0755)
+	}
+	if _, err := os.Stat(fmt.Sprintf("%s/cmd-copy", wf.DataDir())); errors.Is(err, os.ErrNotExist) {
+		os.Mkdir(fmt.Sprintf("%s/cmd-copy", wf.DataDir()), 0755)
+	}
+	if _, err := os.Stat(fmt.Sprintf("%s/cmd-export", wf.DataDir())); errors.Is(err, os.ErrNotExist) {
+		os.Mkdir(fmt.Sprintf("%s/cmd-export", wf.DataDir()), 0755)
+	}
 	wf.Args() // magic for "workflow:update"
 }

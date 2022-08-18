@@ -1,0 +1,30 @@
+/* CSS HEX */
+{{range $i,$v := .}}{{if ne $i 0}}
+{{else}}{{end}}--{{toParam $v.Name}}: {{$v.Hex}}ff{{if not (last $i $)}};{{end}}{{end}}
+
+/* CSS HSL */
+{{range $i,$v := .}}{{if ne $i 0}}
+{{else}}{{end}}--{{toParam $v.Name}}: hsla({{index .HSL 0}}, {{index .HSL 1}}%, {{index .HSL 2}}%, 1){{if not (last $i $)}};{{end}}{{end}}
+
+/* SCSS HEX */
+{{range $i,$v := .}}{{if ne $i 0}}
+{{else}}{{end}}${{toParam $v.Name}}: {{$v.Hex}}ff{{if not (last $i $)}};{{end}}{{end}}
+
+/* SCSS HSL */
+{{range $i,$v := .}}{{if ne $i 0}}
+{{else}}{{end}}${{toParam $v.Name}}: hsla({{index .HSL 0}}, {{index .HSL 1}}%, {{index .HSL 2}}%, 1){{if not (last $i $)}};{{end}}{{end}}
+
+/* SCSS RGB */
+{{range $i,$v := .}}{{if ne $i 0}}
+{{else}}{{end}}${{toParam $v.Name}}: rgba({{index .RGB 0}}, {{index .RGB 1}}, {{index .RGB 2}}, 1){{if not (last $i $)}};{{end}}{{end}}
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, {{range $i,$v := .}}{{$v.Hex}}ff{{if not (last $i $)}}, {{end}}{{end}});
+$gradient-right: linear-gradient(90deg, {{range $i,$v := .}}{{$v.Hex}}ff{{if not (last $i $)}}, {{end}}{{end}});
+$gradient-bottom: linear-gradient(180deg, {{range $i,$v := .}}{{$v.Hex}}ff{{if not (last $i $)}}, {{end}}{{end}});
+$gradient-left: linear-gradient(270deg, {{range $i,$v := .}}{{$v.Hex}}ff{{if not (last $i $)}}, {{end}}{{end}});
+$gradient-top-right: linear-gradient(45deg, {{range $i,$v := .}}{{$v.Hex}}ff{{if not (last $i $)}}, {{end}}{{end}});
+$gradient-bottom-right: linear-gradient(135deg, {{range $i,$v := .}}{{$v.Hex}}ff{{if not (last $i $)}}, {{end}}{{end}});
+$gradient-top-left: linear-gradient(225deg, {{range $i,$v := .}}{{$v.Hex}}ff{{if not (last $i $)}}, {{end}}{{end}});
+$gradient-bottom-left: linear-gradient(315deg, {{range $i,$v := .}}{{$v.Hex}}ff{{if not (last $i $)}}, {{end}}{{end}});
+$gradient-radial: radial-gradient({{range $i,$v := .}}{{$v.Hex}}ff{{if not (last $i $)}}, {{end}}{{end}});

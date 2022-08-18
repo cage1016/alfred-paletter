@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Exported from Alfred paletter - https://github.com/cage1016/alfred-paletter -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 500 250" xml:space="preserve">
+  {{range $i,$v := .}}{{if ne $i 0}}
+    {{else}}{{end}}<rect fill="{{.Hex}}" x="{{ times $i (divide 500 (len $)) }}" y="0" width="{{ divide 500 (len $) }}" height="220"/>{{if not (last $i $)}},{{end}}{{end}}
+  <text x="10" y="235" font-family="Arial" font-size="6" alignment-baseline="middle">Exported from Alfred paletter</text>
+  <text x="490" y="235" font-family="Arial" font-size="6" alignment-baseline="middle" text-anchor="end">https://github.com/cage1016/alfred-paletter</text>
+</svg>
