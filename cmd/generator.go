@@ -82,6 +82,11 @@ func runGeneratorCmd(cmd *cobra.Command, args []string) {
 		path := fmt.Sprintf("%s/%s.png", wf.DataDir(), ct)
 		go lib.GenPng2(wf, path, colors, m, ct)
 		av.Arg(path)
+	case "ase":
+		wf.Add(1)
+		path := fmt.Sprintf("%s/palette.ase", wf.DataDir())
+		go lib.GenerateASE(wf, path, strings.Split(args[0], " "))
+		av.Arg(path)
 	default:
 	}
 

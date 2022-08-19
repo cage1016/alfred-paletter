@@ -22,6 +22,7 @@ require (
 )
 
 require (
+	github.com/ARolek/ase v0.0.0-20150817230131-881046303523 // indirect
 	github.com/duke-git/lancet v1.3.1 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/google/uuid v1.3.0 // indirect

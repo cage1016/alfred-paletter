@@ -283,6 +283,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>CD813BAA-B478-4C2B-9C27-A6F0F6409553</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4BA164B2-D5C9-4FBB-887B-A88D092373E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>E3D85CD8-BE68-486A-8412-F7357A47D0D1</key>
 		<array>
 			<dict>
@@ -355,6 +368,18 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>C3945ADC-8538-45EC-B8BF-5C9458C58EFA</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CD813BAA-B478-4C2B-9C27-A6F0F6409553</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>DB684B0B-2924-4C3D-942C-D0F413CB260F</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -801,6 +826,35 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>for var in "$@"
+do
+    echo "$var" | pbcopy
+	sleep 0.13
+done
+
+echo $@</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>906B8302-0F8A-48AC-BC99-E75F0E6235E1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -858,6 +912,20 @@
 						<string>image</string>
 						<key>uid</key>
 						<string>C3945ADC-8538-45EC-B8BF-5C9458C58EFA</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>ase</string>
+						<key>outputlabel</key>
+						<string>ase</string>
+						<key>uid</key>
+						<string>DB684B0B-2924-4C3D-942C-D0F413CB260F</string>
 					</dict>
 				</array>
 				<key>elselabel</key>
@@ -918,35 +986,6 @@
 			<string>39663EF2-3431-451A-AC12-D3BE7A1C5A75</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>for var in "$@"
-do
-    echo "$var" | pbcopy
-	sleep 0.13
-done
-
-echo $@</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>906B8302-0F8A-48AC-BC99-E75F0E6235E1</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1125,6 +1164,29 @@ echo $@</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./exe generator "$1" -t ase</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CD813BAA-B478-4C2B-9C27-A6F0F6409553</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string># alfred-devtoys
@@ -1178,7 +1240,7 @@ https://github.com/cage1016/alfred-paletter</string>
 			<key>xpos</key>
 			<real>1195</real>
 			<key>ypos</key>
-			<real>755</real>
+			<real>730</real>
 		</dict>
 		<key>0F6A79AD-6307-4E20-A083-47FA8BA1A39C</key>
 		<dict>
@@ -1252,7 +1314,7 @@ https://github.com/cage1016/alfred-paletter</string>
 			<key>xpos</key>
 			<real>1195</real>
 			<key>ypos</key>
-			<real>915</real>
+			<real>890</real>
 		</dict>
 		<key>6A09E38C-AB06-4C7C-B8F2-BBF125383602</key>
 		<dict>
@@ -1291,7 +1353,7 @@ https://github.com/cage1016/alfred-paletter</string>
 			<key>xpos</key>
 			<real>1195</real>
 			<key>ypos</key>
-			<real>585</real>
+			<real>570</real>
 		</dict>
 		<key>BDE21F8E-FEBE-4D2A-97FF-40C012E5243C</key>
 		<dict>
@@ -1321,7 +1383,16 @@ https://github.com/cage1016/alfred-paletter</string>
 			<key>xpos</key>
 			<real>975</real>
 			<key>ypos</key>
-			<real>755</real>
+			<real>785</real>
+		</dict>
+		<key>CD813BAA-B478-4C2B-9C27-A6F0F6409553</key>
+		<dict>
+			<key>note</key>
+			<string>generate ase</string>
+			<key>xpos</key>
+			<real>1195</real>
+			<key>ypos</key>
+			<real>1050</real>
 		</dict>
 		<key>E3D85CD8-BE68-486A-8412-F7357A47D0D1</key>
 		<dict>
@@ -1344,7 +1415,7 @@ https://github.com/cage1016/alfred-paletter</string>
 			<key>xpos</key>
 			<real>770</real>
 			<key>ypos</key>
-			<real>755</real>
+			<real>785</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>

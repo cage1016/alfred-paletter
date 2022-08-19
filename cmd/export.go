@@ -108,8 +108,17 @@ func runExportCmd(cmd *cobra.Command, args []string) {
 		Arg(css).
 		Valid(true).
 		Largetype(css).
-		Icon(CssCodeIcon).
+		Icon(CSSCodeIcon).
 		Var("action", "copy")
+
+	// ASE
+	wf.NewItem("ASE").
+		Subtitle("⌘+L, ↩ Browse ASE file").
+		Arg(args[0]).
+		Valid(true).
+		Largetype(strings.Join(hexs, "\n")).
+		Icon(ASEIcon).
+		Var("action", "ase")
 
 	// SVG
 	svg, _ := te.Execute("svg", results)
@@ -118,7 +127,7 @@ func runExportCmd(cmd *cobra.Command, args []string) {
 		Arg(svg).
 		Valid(true).
 		Largetype(svg).
-		Icon(SvgIcon).
+		Icon(SVGIcon).
 		Var("action", "svc")
 
 	// Images
