@@ -1191,23 +1191,29 @@ echo $@</string>
 	<key>readme</key>
 	<string># alfred-devtoys
 
-Extract color from an image
+Extract color palette from an image
 
 ![](./alfred-paletter.png)
 
 ## Features
 
+- Dominates the color palette with k-means clustering
 - support image format: `jpg`, `png`, `gif`, `bmp`, `webp` and `tiff`
 - Local file / base64 image data URI / `http` and `https` image source URL
-- copy color schema(s) to clipboard
+- Export palette
+  - Code
+  - CSS
+  - ASE file
+  - Image file: Support `RGB` ,`HEX` ,`CMYK` ,`HSL` ,`HSV` ,`HWB` ,`LAB` ,`XYZ` ,`HCG`
+- Copy palette (`⌥ + Enter` Single / `^ + Enter` Multiple) to clipboard
+  - `RGB` ,`HEX` ,`CMYK` ,`HSL` ,`HSV` ,`HWB` ,`LAB` ,`XYZ` ,`HCG`
+  - Multiple palette mode copy color separated by (`⌥ + Enter`)
 
 ## Requires
 - Preferably Alfred 5
 
 ## Configuration
 - Number of colors to extract
-- Enable Color Hex starting with #
-- Enable copying each color hex as a clipboard history
 
 ## Usage
 
@@ -1217,7 +1223,23 @@ Extract color from an image
 - Hokey
 - Universal Action with Base64 Image Data URI and image URL
 
+### Hex sample Image
+
+![](./hex.png)
+
+### ASE sample Decode result
+
+https://carl.camera/sandbox/aseconvert/
+
+![](./ace-color-decode.jpeg)
+
+more usage: https://github.com/cage1016/alfred-paletter
+
 ## Change Log
+
+### 1.0.0
+- add export features (Code / CSS / ASE / Image with `RGB` ,`HEX` ,`CMYK` ,`HSL` ,`HSV` ,`HWB` ,`LAB` ,`XYZ` ,`HCG`) 
+- revised copy feature as single / multiple palette
 
 ### 0.2.1
 - revised README and new demo.gif for better user experience
@@ -1443,7 +1465,7 @@ https://github.com/cage1016/alfred-paletter</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>0.2.1</string>
+	<string>1.0.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/cage1016/alfred-paletter</string>
 </dict>
