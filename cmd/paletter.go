@@ -86,7 +86,7 @@ var paletterCmd = &cobra.Command{
 				go lib.GenPng(wf, path, c.Color)
 
 				ni := wf.NewItem(c.Hex).
-					Subtitle("^ ⌥, ↩ Export Palette").
+					Subtitle("⌘+L ^ ⌥, ↩ Export Palette").
 					Arg(uniColors.HexsString()).
 					Valid(true).
 					UID(strconv.Itoa(i)).

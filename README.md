@@ -53,7 +53,7 @@ Make sure to download the latest released directly from the releases page. [Down
 ![](screenshots/copy-multiple.gif)
 
 
-### Hex sample Image
+### Export Image Sample: Hex
 
 ![](screenshots/hex.png)
 
