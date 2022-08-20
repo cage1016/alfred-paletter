@@ -92,10 +92,14 @@ func colorRects(srcWidth int, srcHeight int, nColors int) []image.Rectangle {
 	return ret
 }
 
+// Luminance computes the luminance (~ brightness) of the given color. Range: 0.0 for black to 1.0 for white.
+func Luminance(col color.Color) float64 {
+	r, g, b, _ := col.RGBA()
+	return (float64(r)*0.299 + float64(g)*0.587 + float64(b)*0.114) / float64(0xffff)
+}
+
 func reverseColor(c color.Color) *image.Uniform {
-	r, g, b, _ := c.RGBA()
-	y := float64(r)*0.299 + float64(g)*0.587 + float64(b)*0.114
-	if y/256 > 186 {
+	if Luminance(c) > 0.5 {
 		return image.Black
 	}
 	return image.White
