@@ -6,6 +6,7 @@ package cmd
 
 import (
 	"fmt"
+	"path/filepath"
 	"strconv"
 	"strings"
 
@@ -41,16 +42,15 @@ var paletterCmd = &cobra.Command{
 
 		var path string
 		var err error
-		if lib.ReUrl.Match([]byte(q)) {
-			// http, https base image url
+		switch true {
+		case lib.ReUrl.Match([]byte(q)): // http, https base image url
 			q, err = lib.Download(q, wf.DataDir())
 			if err != nil {
 				wf.NewItem(fmt.Sprintf("`%s` download fail", q)).Subtitle("Try a different query?").Icon(GaryIcon)
 				wf.SendFeedback()
 				return
 			}
-		} else if lib.ReB64.Match([]byte(q)) {
-			// base64 image data
+		case lib.ReB64.Match([]byte(q)): // base64 image data
 			q, err = lib.DecodeBase64(q, wf.DataDir())
 			if err != nil {
 				wf.NewItem(fmt.Sprintf("`%s` is %v", q, err)).Subtitle("Support png, jpeg, gif, webp, bmp, tiff. Try a different query?").Icon(GaryIcon)
@@ -74,12 +74,10 @@ var paletterCmd = &cobra.Command{
 		} else {
 			var cs clusters.Clusters
 			obs := paletter.ImageToObservation(img)
-			if len(r) > 1 {
-				nc, err := strconv.Atoi(r)
-				if err != nil {
-					wf.NewItem(err.Error()).Subtitle("Support png, jpeg, gif, webp, bmp, tiff. Try a different query?").Icon(GaryIcon)
-					wf.SendFeedback()
-					return
+			if r != "" {
+				nc, _ := strconv.Atoi(strings.TrimSpace(r))
+				if nc == 0 {
+					nc = alfred.GetNumberOfColor(wf)
 				}
 				cs, _ = paletter.CalculatePalette(obs, nc)
 			} else {
