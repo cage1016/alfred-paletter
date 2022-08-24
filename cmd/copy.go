@@ -48,7 +48,7 @@ type CustomItem struct {
 // copyCmd represents the copy command
 var copyCmd = &cobra.Command{
 	Use:   "copy",
-	Short: "A brief description of your command",
+	Short: "Copy single or multiple color palette",
 	Run:   runcopyCmd,
 }
 

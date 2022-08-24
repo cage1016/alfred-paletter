@@ -13,7 +13,11 @@ import (
 
 	aw "github.com/deanishe/awgo"
 	"github.com/deanishe/awgo/update"
+	"github.com/kelseyhightower/envconfig"
 	"github.com/spf13/cobra"
+	"gorm.io/gorm"
+
+	"github.com/cage1016/alfred-paletter/sqlite"
 )
 
 const updateJobName = "checkForUpdate"
@@ -21,7 +25,13 @@ const updateJobName = "checkForUpdate"
 var (
 	repo = "cage1016/alfred-paletter"
 	wf   *aw.Workflow
+	cfg  Config
+	db   *gorm.DB
 )
+
+type Config struct {
+	DbConfig sqlite.Config
+}
 
 func CheckForUpdate() {
 	if wf.UpdateCheckDue() && !wf.IsRunning(updateJobName) {
@@ -56,6 +66,18 @@ var rootCmd = &cobra.Command{
 // This is called by main.main(). It only needs to happen once to the rootCmd.
 func Execute() {
 	wf.Run(func() {
+		err := envconfig.Process("qs", &cfg)
+		if err != nil {
+			log.Println(err)
+			os.Exit(1)
+		}
+
+		db, err = sqlite.Connect(&cfg.DbConfig)
+		if err != nil {
+			log.Println(err)
+			os.Exit(1)
+		}
+
 		if err := rootCmd.Execute(); err != nil {
 			log.Println(err)
 			os.Exit(1)

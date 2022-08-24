@@ -20,6 +20,7 @@ var (
 	ReUrl           = regexp.MustCompile(`^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?(?:jpg|jpeg|gif|png|tiff|tif|bmp|webp)$`)
 	ReB64           = regexp.MustCompile(`(data:image\/[^;]+;base64,.*?)`)
 	ReNumberOfColor = regexp.MustCompile(`(?m)( \+\d?)`)
+	ClipBoardTiff   = regexp.MustCompile(`(?m)[a-z0-9]{40}.tiff`)
 )
 
 type HexColor struct {

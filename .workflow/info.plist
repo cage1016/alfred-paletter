@@ -243,6 +243,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>C35F9034-A4A9-4660-BF29-606EC3682362</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7437661B-BC74-4A03-B545-2CCF454C28E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C3A81E39-FDCB-4C24-BF11-D6D0CBA24FB0</key>
 		<array>
 			<dict>
@@ -612,11 +625,11 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>0</integer>
+				<integer>35</integer>
 				<key>hotmod</key>
-				<integer>0</integer>
+				<integer>1835008</integer>
 				<key>hotstring</key>
-				<string></string>
+				<string>P</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1098,6 +1111,55 @@ echo $@</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>paletterfi</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading...</string>
+				<key>script</key>
+				<string>./exe paletterfi "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Find Clipboard Image and open with Paletter</string>
+				<key>title</key>
+				<string>Find Clipboard Image and open with Paletter</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>C35F9034-A4A9-4660-BF29-606EC3682362</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -1384,6 +1446,15 @@ https://github.com/cage1016/alfred-paletter</string>
 			<key>ypos</key>
 			<real>65</real>
 		</dict>
+		<key>C35F9034-A4A9-4660-BF29-606EC3682362</key>
+		<dict>
+			<key>note</key>
+			<string>Find Clipboard Image and open with Paletter</string>
+			<key>xpos</key>
+			<real>100</real>
+			<key>ypos</key>
+			<real>780</real>
+		</dict>
 		<key>C3A81E39-FDCB-4C24-BF11-D6D0CBA24FB0</key>
 		<dict>
 			<key>xpos</key>
@@ -1393,6 +1464,8 @@ https://github.com/cage1016/alfred-paletter</string>
 		</dict>
 		<key>C975511B-BC32-4F94-BFFA-C3BCDA3A2886</key>
 		<dict>
+			<key>note</key>
+			<string>Find and open with Paletter</string>
 			<key>xpos</key>
 			<real>100</real>
 			<key>ypos</key>

@@ -57,6 +57,14 @@ var paletterCmd = &cobra.Command{
 				wf.SendFeedback()
 				return
 			}
+		case lib.ClipBoardTiff.Match([]byte(q)): // alfred clipboard image
+			b := filepath.Join(cfg.DbConfig.Home, cfg.DbConfig.Path, cfg.DbConfig.Name) + ".data"
+			q, err = lib.Copy(filepath.Join(b, q), wf.DataDir())
+			if err != nil {
+				wf.NewItem(fmt.Sprintf("`%s` is %v", q, err)).Subtitle("Clipboard file not found. Try a different query?").Icon(GaryIcon)
+				wf.SendFeedback()
+				return
+			}
 		}
 
 		// local file
