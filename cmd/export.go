@@ -38,7 +38,7 @@ type Result struct {
 // exportCmd represents the export command
 var exportCmd = &cobra.Command{
 	Use:   "export",
-	Short: "A brief description of your command",
+	Short: "Export Code/CSS/SVG/ASE/Images",
 	Run:   runExportCmd,
 }
 

@@ -21,7 +21,7 @@ import (
 // generatorCmd represents the generator command
 var generatorCmd = &cobra.Command{
 	Use:   "generator",
-	Short: "A brief description of your command",
+	Short: "Images generator",
 	Run:   runGeneratorCmd,
 }
 
