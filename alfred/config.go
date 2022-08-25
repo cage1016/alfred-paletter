@@ -5,19 +5,14 @@ import (
 )
 
 const (
-	NumberOfColor     = "number_of_color"
-	ColorsHexWithHash = "colors_hex_with_hash"
-	CopyAllSeparate   = "copy_all_separate"
+	NumberOfColors          = "number_of_colors"
+	NumberOfClipboardImages = "number_of_clipboard_images"
 )
 
-func GetNumberOfColor(wf *aw.Workflow) int {
-	return wf.Config.GetInt(NumberOfColor, 3)
+func GetNumberOfColors(wf *aw.Workflow) int {
+	return wf.Config.GetInt(NumberOfColors, 7)
 }
 
-func GetColorsHexWithHash(wf *aw.Workflow) bool {
-	return wf.Config.GetBool(ColorsHexWithHash)
-}
-
-func GetCopyAllSeparate(wf *aw.Workflow) bool {
-	return wf.Config.GetBool(CopyAllSeparate)
+func GetNumberOfClipboard(wf *aw.Workflow) int {
+	return wf.Config.GetInt(NumberOfClipboardImages, 10)
 }

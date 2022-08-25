@@ -1685,11 +1685,32 @@ https://github.com/cage1016/alfred-paletter</string>
 			<key>description</key>
 			<string>recommend 1 ~ 10</string>
 			<key>label</key>
-			<string>Number of Color</string>
+			<string>Number of Colors</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
-			<string>number_of_color</string>
+			<string>number_of_colors</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>10</string>
+				<key>placeholder</key>
+				<string>digital</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Number of Clipboard Images</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>number_of_clipboard_images</string>
 		</dict>
 	</array>
 	<key>version</key>

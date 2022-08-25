@@ -13,6 +13,7 @@ import (
 	aw "github.com/deanishe/awgo"
 	"github.com/spf13/cobra"
 
+	"github.com/cage1016/alfred-paletter/alfred"
 	"github.com/cage1016/alfred-paletter/lib"
 	"github.com/cage1016/alfred-paletter/sqlite"
 )
@@ -44,7 +45,7 @@ var aCmd = &cobra.Command{
 			}
 			items, err = repo.List(context.Background(), nc)
 		} else {
-			items, err = repo.List(context.Background(), 10)
+			items, err = repo.List(context.Background(), alfred.GetNumberOfClipboard(wf))
 		}
 
 		if err != nil {

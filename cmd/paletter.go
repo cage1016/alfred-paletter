@@ -77,11 +77,11 @@ var paletterCmd = &cobra.Command{
 			if r != "" {
 				nc, _ := strconv.Atoi(strings.TrimSpace(r))
 				if nc == 0 {
-					nc = alfred.GetNumberOfColor(wf)
+					nc = alfred.GetNumberOfColors(wf)
 				}
 				cs, _ = paletter.CalculatePalette(obs, nc)
 			} else {
-				cs, _ = paletter.CalculatePalette(obs, alfred.GetNumberOfColor(wf))
+				cs, _ = paletter.CalculatePalette(obs, alfred.GetNumberOfColors(wf))
 			}
 			colors := paletter.ColorsFromClusters(cs)
 

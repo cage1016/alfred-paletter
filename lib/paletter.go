@@ -7,8 +7,6 @@ import (
 
 	aw "github.com/deanishe/awgo"
 	color "github.com/lucasb-eyer/go-colorful"
-
-	"github.com/cage1016/alfred-paletter/alfred"
 )
 
 const (
@@ -47,9 +45,6 @@ func (hs HexColors) Hexs() []string {
 }
 
 func Hex(wf *aw.Workflow, col color.Color) string {
-	if alfred.GetColorsHexWithHash(wf) {
-		return fmt.Sprintf(hexPatternHash, uint8(col.R*255.0+0.5), uint8(col.G*255.0+0.5), uint8(col.B*255.0+0.5))
-	}
 	return fmt.Sprintf(hexPattern, uint8(col.R*255.0+0.5), uint8(col.G*255.0+0.5), uint8(col.B*255.0+0.5))
 }
 
