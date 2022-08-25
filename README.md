@@ -24,6 +24,7 @@ Extract color palette from an image
 - Copy palette (`⌥ + Enter` Single / `^ + Enter` Multiple) to clipboard
   - `RGB` ,`HEX` ,`CMYK` ,`HSL` ,`HSV` ,`HWB` ,`LAB` ,`XYZ` ,`HCG`
   - Multiple palette mode copy color separated by (`⌥ + Enter`)
+- Extract color from Clipboard Images
 
 ## Download
 Make sure to download the latest released directly from the releases page. [Download here](https://github.com/cage1016/alfred-paletter/releases).
@@ -42,6 +43,9 @@ Make sure to download the latest released directly from the releases page. [Down
 - Hokey
 - Universal Action with Base64 Image Data URI and image URL
 
+### Extract Color from Clipboard Images
+
+![](screenshots/paletterfi.gif)
 
 ### Copy Single Color
 
@@ -158,6 +162,10 @@ $gradient-radial: radial-gradient(#95d6faff, #65befaff, #9facb5ff, #4186c1ff, #7
 - [Baldomo/paletter: CLI app and library to extract a color palette from an image through clustering](https://github.com/Baldomo/paletter)
 
 ## Change Log
+
+### 1.1.0
+- Add Extract color from Clipboard Images
+- Fixed workflow crash
 
 ### 1.0.0
 - add export features (Code / CSS / ASE / Image with `RGB` ,`HEX` ,`CMYK` ,`HSL` ,`HSV` ,`HWB` ,`LAB` ,`XYZ` ,`HCG`) 

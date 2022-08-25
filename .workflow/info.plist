@@ -1404,6 +1404,7 @@ Extract color palette from an image
 - Copy palette (`⌥ + Enter` Single / `^ + Enter` Multiple) to clipboard
   - `RGB` ,`HEX` ,`CMYK` ,`HSL` ,`HSV` ,`HWB` ,`LAB` ,`XYZ` ,`HCG`
   - Multiple palette mode copy color separated by (`⌥ + Enter`)
+- Extract color from Clipboard Images
 
 ## Requires
 - Preferably Alfred 5
@@ -1419,6 +1420,10 @@ Extract color palette from an image
 - Hokey
 - Universal Action with Base64 Image Data URI and image URL
 
+### Extract Color from Clipboard Images
+
+![](./paletterfi.png)
+
 ### Hex sample Image
 
 ![](./hex.png)
@@ -1432,6 +1437,10 @@ https://carl.camera/sandbox/aseconvert/
 more usage: https://github.com/cage1016/alfred-paletter
 
 ## Change Log
+
+### 1.1.0
+- Add Extract color from Clipboard Images
+- Fixed workflow crash
 
 ### 1.0.0
 - add export features (Code / CSS / ASE / Image with `RGB` ,`HEX` ,`CMYK` ,`HSL` ,`HSV` ,`HWB` ,`LAB` ,`XYZ` ,`HCG`) 
@@ -1714,7 +1723,7 @@ https://github.com/cage1016/alfred-paletter</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.1.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/cage1016/alfred-paletter</string>
 </dict>
