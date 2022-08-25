@@ -132,6 +132,29 @@
 				<false/>
 			</dict>
 		</array>
+		<key>632AA86E-C0EE-4CA7-B7C2-4DD13EFF8A9A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>498E9573-83D4-4B21-B9DE-6BE8ADE5BDBC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>EB0E8A85-85CA-4F64-8041-4C6929320C6D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>6A09E38C-AB06-4C7C-B8F2-BBF125383602</key>
 		<array>
 			<dict>
@@ -149,7 +172,27 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>C3A81E39-FDCB-4C24-BF11-D6D0CBA24FB0</string>
+				<string>25300FE8-5B1F-4A6C-9340-AF0B85B840E9</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>632AA86E-C0EE-4CA7-B7C2-4DD13EFF8A9A</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>39663EF2-3431-451A-AC12-D3BE7A1C5A75</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -252,33 +295,6 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>C3A81E39-FDCB-4C24-BF11-D6D0CBA24FB0</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>25300FE8-5B1F-4A6C-9340-AF0B85B840E9</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>C1FBD88C-51C8-4ABF-8D7E-3D8FC9DB8DEF</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>39663EF2-3431-451A-AC12-D3BE7A1C5A75</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>D2555A1D-5294-4F54-85AD-47C99B6B78EB</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -397,6 +413,32 @@
 				<false/>
 			</dict>
 		</array>
+		<key>FB5006BD-100D-41FA-A758-2DCC11DEB5DA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C975511B-BC32-4F94-BFFA-C3BCDA3A2886</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FD5FA00E-9DB7-4E2A-BA29-13AB6BF2C552</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C35F9034-A4A9-4660-BF29-606EC3682362</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>KAI CHU CHUNG</string>
@@ -434,6 +476,35 @@
 			<string>E3D85CD8-BE68-486A-8412-F7357A47D0D1</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>1{query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>8E60BA4B-34B4-4CD0-BE57-AE0E7041A69B</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -616,37 +687,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>1</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>35</integer>
-				<key>hotmod</key>
-				<integer>1835008</integer>
-				<key>hotstring</key>
-				<string>P</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>4BD1B1BB-8DBD-4284-BEF0-320867C09B1D</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -690,6 +730,37 @@
 			<string>7437661B-BC74-4A03-B545-2CCF454C28E9</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>4BD1B1BB-8DBD-4284-BEF0-320867C09B1D</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -746,52 +817,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:action}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>copy_palette</string>
-						<key>outputlabel</key>
-						<string>copy_palette</string>
-						<key>uid</key>
-						<string>C1FBD88C-51C8-4ABF-8D7E-3D8FC9DB8DEF</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:action}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>export</string>
-						<key>outputlabel</key>
-						<string>export</string>
-						<key>uid</key>
-						<string>D2555A1D-5294-4F54-85AD-47C99B6B78EB</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>else</string>
-				<key>hideelse</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>C3A81E39-FDCB-4C24-BF11-D6D0CBA24FB0</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>path</key>
 				<string></string>
 				<key>sortBy</key>
@@ -811,6 +836,53 @@
 			<string>4BA164B2-D5C9-4FBB-887B-A88D092373E9</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./exe copy "$1" </string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Paletter Copy</string>
+				<key>title</key>
+				<string>Paletter Copy</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>632AA86E-C0EE-4CA7-B7C2-4DD13EFF8A9A</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -977,7 +1049,7 @@ echo $@</string>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Loading...</string>
 				<key>script</key>
 				<string>./exe export "$1"</string>
 				<key>scriptargtype</key>
@@ -999,6 +1071,37 @@ echo $@</string>
 			<string>39663EF2-3431-451A-AC12-D3BE7A1C5A75</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>FB5006BD-100D-41FA-A758-2DCC11DEB5DA</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1105,6 +1208,37 @@ echo $@</string>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>0A54CF84-5498-437A-8265-AF4509CA3388</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>FD5FA00E-9DB7-4E2A-BA29-13AB6BF2C552</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1322,72 +1456,72 @@ https://github.com/cage1016/alfred-paletter</string>
 			<key>note</key>
 			<string>generate svg</string>
 			<key>xpos</key>
-			<real>1195</real>
+			<real>1340</real>
 			<key>ypos</key>
 			<real>730</real>
 		</dict>
 		<key>0F6A79AD-6307-4E20-A083-47FA8BA1A39C</key>
 		<dict>
 			<key>xpos</key>
-			<real>1515</real>
+			<real>1660</real>
 			<key>ypos</key>
 			<real>240</real>
 		</dict>
 		<key>16DCA28F-9A99-491E-9BB0-57DBF70F4797</key>
 		<dict>
 			<key>xpos</key>
-			<real>100</real>
+			<real>245</real>
 			<key>ypos</key>
 			<real>210</real>
 		</dict>
 		<key>25300FE8-5B1F-4A6C-9340-AF0B85B840E9</key>
 		<dict>
 			<key>xpos</key>
-			<real>770</real>
+			<real>910</real>
 			<key>ypos</key>
 			<real>335</real>
 		</dict>
 		<key>39663EF2-3431-451A-AC12-D3BE7A1C5A75</key>
 		<dict>
 			<key>xpos</key>
-			<real>770</real>
+			<real>910</real>
 			<key>ypos</key>
-			<real>585</real>
+			<real>595</real>
 		</dict>
 		<key>498E9573-83D4-4B21-B9DE-6BE8ADE5BDBC</key>
 		<dict>
 			<key>note</key>
 			<string>remove cmd-copy png files</string>
 			<key>xpos</key>
-			<real>965</real>
+			<real>1120</real>
 			<key>ypos</key>
 			<real>335</real>
 		</dict>
 		<key>4BA164B2-D5C9-4FBB-887B-A88D092373E9</key>
 		<dict>
 			<key>xpos</key>
-			<real>1515</real>
+			<real>1660</real>
 			<key>ypos</key>
 			<real>415</real>
 		</dict>
 		<key>4BD1B1BB-8DBD-4284-BEF0-320867C09B1D</key>
 		<dict>
 			<key>xpos</key>
-			<real>100</real>
+			<real>65</real>
 			<key>ypos</key>
 			<real>350</real>
 		</dict>
 		<key>4C2A7462-8A13-4B86-A304-0F107BCDA619</key>
 		<dict>
 			<key>xpos</key>
-			<real>100</real>
+			<real>245</real>
 			<key>ypos</key>
 			<real>490</real>
 		</dict>
 		<key>5C9779DF-E272-4419-8224-E69B738191BC</key>
 		<dict>
 			<key>xpos</key>
-			<real>490</real>
+			<real>635</real>
 			<key>ypos</key>
 			<real>270</real>
 		</dict>
@@ -1396,53 +1530,67 @@ https://github.com/cage1016/alfred-paletter</string>
 			<key>note</key>
 			<string>generate image</string>
 			<key>xpos</key>
-			<real>1195</real>
+			<real>1340</real>
 			<key>ypos</key>
 			<real>890</real>
+		</dict>
+		<key>632AA86E-C0EE-4CA7-B7C2-4DD13EFF8A9A</key>
+		<dict>
+			<key>xpos</key>
+			<real>910</real>
+			<key>ypos</key>
+			<real>460</real>
 		</dict>
 		<key>6A09E38C-AB06-4C7C-B8F2-BBF125383602</key>
 		<dict>
 			<key>xpos</key>
-			<real>1390</real>
+			<real>1535</real>
 			<key>ypos</key>
 			<real>355</real>
 		</dict>
 		<key>7437661B-BC74-4A03-B545-2CCF454C28E9</key>
 		<dict>
 			<key>xpos</key>
-			<real>450</real>
+			<real>595</real>
 			<key>ypos</key>
-			<real>350</real>
+			<real>335</real>
 		</dict>
 		<key>7BDF05E1-0A5F-456C-8A34-6BE6BB0EE124</key>
 		<dict>
 			<key>note</key>
 			<string>Support http(s) image URL and Base64 Data URI</string>
 			<key>xpos</key>
-			<real>292</real>
+			<real>437</real>
 			<key>ypos</key>
 			<real>215</real>
 		</dict>
 		<key>8BDB2B19-2885-4E2C-861E-0C099CC9D88E</key>
 		<dict>
 			<key>xpos</key>
-			<real>300</real>
+			<real>445</real>
 			<key>ypos</key>
 			<real>370</real>
+		</dict>
+		<key>8E60BA4B-34B4-4CD0-BE57-AE0E7041A69B</key>
+		<dict>
+			<key>xpos</key>
+			<real>915</real>
+			<key>ypos</key>
+			<real>200</real>
 		</dict>
 		<key>906B8302-0F8A-48AC-BC99-E75F0E6235E1</key>
 		<dict>
 			<key>note</key>
 			<string>copy each color hex as one clipboard history</string>
 			<key>xpos</key>
-			<real>1195</real>
+			<real>1340</real>
 			<key>ypos</key>
 			<real>570</real>
 		</dict>
 		<key>BDE21F8E-FEBE-4D2A-97FF-40C012E5243C</key>
 		<dict>
 			<key>xpos</key>
-			<real>1515</real>
+			<real>1660</real>
 			<key>ypos</key>
 			<real>65</real>
 		</dict>
@@ -1451,23 +1599,16 @@ https://github.com/cage1016/alfred-paletter</string>
 			<key>note</key>
 			<string>Find Clipboard Image and open with Paletter</string>
 			<key>xpos</key>
-			<real>100</real>
+			<real>245</real>
 			<key>ypos</key>
 			<real>780</real>
-		</dict>
-		<key>C3A81E39-FDCB-4C24-BF11-D6D0CBA24FB0</key>
-		<dict>
-			<key>xpos</key>
-			<real>630</real>
-			<key>ypos</key>
-			<real>370</real>
 		</dict>
 		<key>C975511B-BC32-4F94-BFFA-C3BCDA3A2886</key>
 		<dict>
 			<key>note</key>
 			<string>Find and open with Paletter</string>
 			<key>xpos</key>
-			<real>100</real>
+			<real>245</real>
 			<key>ypos</key>
 			<real>630</real>
 		</dict>
@@ -1476,7 +1617,7 @@ https://github.com/cage1016/alfred-paletter</string>
 			<key>note</key>
 			<string>remove cmd-export png files</string>
 			<key>xpos</key>
-			<real>975</real>
+			<real>1120</real>
 			<key>ypos</key>
 			<real>785</real>
 		</dict>
@@ -1485,21 +1626,21 @@ https://github.com/cage1016/alfred-paletter</string>
 			<key>note</key>
 			<string>generate ase</string>
 			<key>xpos</key>
-			<real>1195</real>
+			<real>1340</real>
 			<key>ypos</key>
 			<real>1050</real>
 		</dict>
 		<key>E3D85CD8-BE68-486A-8412-F7357A47D0D1</key>
 		<dict>
 			<key>xpos</key>
-			<real>1385</real>
+			<real>1535</real>
 			<key>ypos</key>
 			<real>185</real>
 		</dict>
 		<key>EB0E8A85-85CA-4F64-8041-4C6929320C6D</key>
 		<dict>
 			<key>xpos</key>
-			<real>975</real>
+			<real>1120</real>
 			<key>ypos</key>
 			<real>575</real>
 		</dict>
@@ -1508,9 +1649,23 @@ https://github.com/cage1016/alfred-paletter</string>
 			<key>note</key>
 			<string>remove cmd-paletter png files</string>
 			<key>xpos</key>
-			<real>770</real>
+			<real>915</real>
 			<key>ypos</key>
 			<real>785</real>
+		</dict>
+		<key>FB5006BD-100D-41FA-A758-2DCC11DEB5DA</key>
+		<dict>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>630</real>
+		</dict>
+		<key>FD5FA00E-9DB7-4E2A-BA29-13AB6BF2C552</key>
+		<dict>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>780</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>

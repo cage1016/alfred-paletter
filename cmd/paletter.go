@@ -99,20 +99,17 @@ var paletterCmd = &cobra.Command{
 					Quicklook(q).
 					Copytext(c.Hex).
 					Largetype(c.Hex).
-					Icon(&aw.Icon{Value: path}).
-					Var("action", "export")
+					Icon(&aw.Icon{Value: path})
 
 				ni.Opt().
 					Subtitle("↩ Copy single Palette").
-					Valid(true).
 					Arg(c.Hex).
-					Var("action", "copy_palette")
+					Valid(true)
 
 				ni.Ctrl().
 					Subtitle("↩ Copy multiple Palette").
-					Valid(true).
 					Arg(uniColors.HexsString()).
-					Var("action", "copy_palette")
+					Valid(true)
 			}
 
 			if len(uniColors) == 0 {
