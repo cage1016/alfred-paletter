@@ -28,8 +28,8 @@ jobs:
         id: build
         run: |
           # build package
-          GOOS=darwin GOARCH=amd64 go build -ldflags "-s -w" -o exe_amd64
-          GOOS=darwin GOARCH=arm64 go build -ldflags "-s -w" -o exe_arm64
+          CGO_ENABLED=1 GOOS=darwin GOARCH=amd64 go build -ldflags "-s -w" -o exe_amd64
+          CGO_ENABLED=1 GOOS=darwin GOARCH=arm64 go build -ldflags "-s -w" -o exe_arm64
           lipo -create -output .workflow/exe exe_amd64 exe_arm64
           rm  exe_amd64
           rm  exe_arm64
